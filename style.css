@@ -1,0 +1,79 @@
+body {
+  background-color: #121212
+}
+
+
+
+.container {
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.button_round {
+  background-color: lightslategrey;
+  border-radius: 50px;
+  padding: 12px 28px; 
+}
+
+.input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid lightcyan;
+    border-radius: 6px;
+    font-size: 16px;
+    color: black;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-sizing: border-box; 
+}
+
+
+
+
+.container_Gray {
+  background-color: gray; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+
+.container_LightGray {
+  background-color: lightgray; 
+  padding: 20px; 
+  border-radius: 8px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.simple_label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: black;
+    font-size: 14px;
+}
+
+.simple_button {
+  color: white; 
+  background-color: #007bff; 
+  border: none; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500; 
+  cursor: pointer; 
+  padding: 12px 24px; 
+  transition: background-color 0.3s ease; 
+}
